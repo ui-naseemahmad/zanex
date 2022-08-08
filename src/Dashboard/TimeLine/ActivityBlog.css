@@ -1,0 +1,125 @@
+.activityBlog {
+    display: flex;
+    min-height: 70px;
+    position: relative;
+    align-items: center;
+    column-gap: 10px;
+    padding: 0 15px;
+}
+.timeLine-section {
+    background: #fff;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 324px;
+    border-radius: 6px;
+}
+.activityImg {
+    width: 45px;
+    height: 45px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+    border-radius: 50%;
+    margin-top: 14px;
+    position: relative;
+}
+.activityImg:after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 22px;
+    background: #e0e9f1;
+    bottom: -24px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.activityImg.borderPrimary {
+    border-color: #6259ca;
+}
+
+.activityDetails {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    column-gap: 10px;
+    justify-content: space-between;
+}
+
+
+.activityDetails--details p {
+    font-size: 14px;
+    font-family: 'Roboto';
+    margin-bottom: 0;
+}
+
+.activityDetails--userName {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Roboto';
+}
+
+.activityDetails--date {
+    font-size: 11px;
+    color: #76839a;
+}
+
+.timeLine__badge--badge {
+    font-size: 12px;
+
+    padding: 3px 6px;
+    border-radius: 3px;
+    color: #fff;
+}
+.timelineMain {
+    display: flex;
+    justify-content: space-between;
+}
+.activityImg-img {
+    font-size: 22px;
+}
+
+.timeLine__badge--badge.primaryColor {
+    background: #6259ca;
+}
+.timeLine__badge--badge.secondaryColor {
+    background: var(--secondaryColor);
+}
+.timeLine__badge--badge.successColor {
+    background:var(--successColor);
+}
+.timeLine__badge--badge.infoColor {
+    background: var(--infoColor);
+}
+.timeLine__badge--badge.dangerColor {
+    background:var(--dangerColor);
+}
+
+
+
+
+.activityImg-img.primaryColor,
+.activityImg.borderPrimary {
+    color: #6259ca;
+}
+
+.activityImg-img.secondaryColor,
+.activityImg.borderSecondary {
+    color: var(--secondaryColor);
+}
+
+.activityImg-img.successColor,
+.activityImg.borderSuccess {
+    color: var(--successColor);
+}
+
+.activityImg-img.infoColor,
+.activityImg.borderInfo {
+    color: var(--infoColor)
+}
+
+.activityImg-img.dangerColor,
+.activityImg.borderDanger {
+    color: var(--dangerColor)
+}

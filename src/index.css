@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root{
+  --primaryColor:#6259ca;
+  --secondaryColor:#fb6b25 ;
+  --successColor:#09ad95;
+  --infoColor:#45aaf2;
+  --dangerColor:#f82649;
+  --darkMode:#30304d;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.layout {
+  display: flex;
+  position: relative;
+}
+
+.sidebarSection {
+  flex: 0 0 20%;
+  background: #fff;
+  height: 100vh;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transition: 0.5s all;
+}
+.sidebar {
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+  border-right: 1px solid #eee;
+  transition: 0.5s all;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background: #fff;
+}
+.TobarSection {
+  flex: 0 0 80%;
+  background: #f2f3f9;
+  width: 80%;
+}
+.layout.active .sidebar {
+  padding: 19px 19px 25px 19px;
+}
+
+.chart-title h3 {
+  font-weight: 500;
+  font-size: 16px;
+  padding-left: 16px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 16px;
+  margin-top: 0;
+  padding-top: 20px;
+}
+.text-success{
+  color: var(--successColor);
+}
+.text-danger{
+  color: var(--dangerColor);
+}
+.text-primary{
+  color: var(--primaryColor);
+}
+.text-info{
+  color: var(--infoColor);
+}
+.text-secondary{
+  color: var(--secondaryColor);
+}
+
+
+/*DARK MODE*/
+
+.layout.darkMode .Tobar {
+  background: var(--darkMode);
+  color: #fff;
+}
+.layout.darkMode .Topbar__item svg {
+  box-shadow: 0 2px 3px #1a1a2f;
+}
+.layout.darkMode button.submit svg {
+  box-shadow: unset;
+}
+
+.layout.darkMode .serchInput input {
+  background: var(--darkMode);
+  border-color: #4e4e7a;
+  color: #fff;
+}

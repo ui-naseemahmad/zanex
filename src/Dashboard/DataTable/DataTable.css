@@ -1,0 +1,98 @@
+.rdt_TableRow {
+    border-left: 1px solid #eaedf1;
+    border-right: 1px solid #eaedf1;
+    border-bottom: 1px solid #eaedf1;
+}
+.rdt_TableCol, .rdt_TableCell {
+    border-right: 1px solid #eaedf1;
+}
+.rdt_TableHeadRow {
+    border: 1px solid #eaedf1;
+}
+.gnaqej svg {
+    top: 50% !important;
+    transform: translateY(-50%);
+}
+.rdt_TableCell {
+    font-size: 15px;
+    color: #76839a;
+    font-weight: 600;
+}
+.rdt_Pagination .sc-llJcti {
+    border: 1px solid #eaedf1;
+    border-radius: 4px;
+    justify-content: start!important;
+    left: 25px!important;
+    padding: 5px;
+    position: absolute;
+    top: 74px;
+    width: -moz-fit-content!important;
+    width: fit-content!important;
+}
+    .data-table-extensions .data-table-extensions-action {
+        display: none;
+    }
+    .data-table-extensions .data-table-extensions-filter {
+        float: right!important;
+    }
+    .data-table-extensions>.data-table-extensions-filter>.filter-text {
+        background-color: transparent!important;
+        border: 1px solid #eaedf1!important;
+        border-radius: 7px;
+        margin-left: -11px!important;
+        outline: none!important;
+        padding: .375rem .75rem!important;
+    }
+    .data-table-extensions>.data-table-extensions-filter>.icon {
+        display: none!important;
+    }
+    .sc-dkzDqf.gZWIKX.rdt_TableHeadRow .eUeqdG {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+
+
+
+    .dataTable {
+        background: #fff;
+        margin-top: 20px;
+        border-radius: 6px;
+        position: relative;
+    }
+.table-Name {
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.table-Name__img img {
+    width: 100%;
+    max-width: 45px;
+    border-radius: 50%;
+}
+.table-userInfo h5 {
+    margin: 0;
+    font-size: 14px;
+    color: #000;
+}
+
+.table-userInfo span {
+    color: #76839a;
+    font-size: 12px;
+    margin-top: 6px;
+    display: inline-block;
+    font-weight: 100;
+}
+span.actionsIcon--edit svg, span.actionsIcon--delete svg {
+    padding: 9px 13px;
+    background: var(--primaryColor);
+    color: #fff;
+    border-radius: 3px;
+}
+span.actionsIcon--delete svg {
+    background-color: var(--dangerColor);
+    margin-left: 8px;
+}

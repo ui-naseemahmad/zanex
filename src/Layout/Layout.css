@@ -1,0 +1,10 @@
+.layout.active .sidebarSection {
+    flex: 0 0 80px;
+}
+.layout.active .TobarSection {
+    width: 80%;
+    flex: 0 0 calc(100% - 80px);
+}
+.layout.active .sidebarSection .sidebar-menu-item, .layout.active  .sidemenu-item h3 {
+    display: none;
+}

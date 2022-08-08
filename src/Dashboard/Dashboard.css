@@ -1,0 +1,128 @@
+.cardBody {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 14px 21px;
+    display: flex;
+    align-items: center;
+    column-gap: 38px;
+    border-radius: 6px;
+    background: #fff;
+    box-sizing: border-box;
+}
+.cardBody-left h6 {
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.number-font {
+    font-size: 24px;
+    margin-top: 15px;
+    line-height: 1.1;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    color: #0D0C22;
+}
+.text-primary.primary {
+    color: #6259ca;
+    padding-right: 6px;
+    display: block;
+    margin-bottom: 4px;
+}
+.text-primary.danger {
+    color: #fb6b25;
+    padding-right: 6px;
+    display: block;
+    margin-bottom: 4px;
+}
+.text-primary.secondary {
+    color: #09ad95;
+    padding-right: 6px;
+    display: block;
+    margin-bottom: 4px;
+}
+.text-primary.success {
+    color: #f82649;
+    padding-right: 6px;
+    display: block;
+    margin-bottom: 4px;
+}
+.text-muted {
+    color: #6c757d;
+    font-size: 14px;
+}
+.cardBody-right span svg {
+    font-size: 25px;
+    color: #fff;
+}
+.cardBody-right.primary{
+    background: linear-gradient(to bottom right, #6259ca 0%, rgba(98, 89, 202, 0.6) 100%) !important;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 0 5px 10px rgb(98 89 202 / 30%);
+}
+.cardBody-right.danger{
+    background: linear-gradient(to bottom right, #f1bf64 0%, #f71d36 100%) !important;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 0 5px 10px rgb(98 89 202 / 30%);
+}
+.cardBody-right.secondary{
+    background: linear-gradient(to bottom right, #9070ff 0%, #ff5d9e 100%) !important ;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 0 5px 10px rgb(98 89 202 / 30%);
+}
+.cardBody-right.success{
+    background: linear-gradient(to bottom right, #4be8d4 0%, #129bd2 100%) !important;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 0 5px 10px rgb(98 89 202 / 30%);
+}
+
+
+.text-svg.primary svg {
+    background: #6259ca;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.text-svg.secondary svg {
+    background: #fb6b25;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.text-svg.danger svg {
+    background: #f82649;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.text-svg.success svg {
+    background: #09ad95;
+    border-radius: 50%;
+    color: #fff;
+}
+.cardBody-main {
+    display: flex;
+    column-gap: 20px;
+}
+.cardBody-main > div {
+    width: calc(100% / 4);
+}
